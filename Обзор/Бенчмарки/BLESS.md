@@ -87,7 +87,23 @@ ___
 ```
 
 С человеческой точки зрения в ASSET изначальные предложения не особо сложные.
-==потом можно будет ещё повыискивать сложные примеры==
+
+Суть датасета не в том, чтобы взять изначально сложные предложения и упростить их. Она в том, чтобы просто упростить:
+```
+Complex: He was appointed Companion of Honour (CH) in 1988.
+Simple: He was appointed Companion of Honour in 1988.
+```
+
+Из чего можно рассчитывать сложность:
+- сложность дерева разбора;
+- уровень лексики (часто заменяются более простыми синонимами)  // на самом деле даже лексическое упрощение -- это очень объёмная тема же
+
+Часто при упрощении опускают какие-то уточнения:
+```
+Complex: Representatives of the Professional Hockey Writers' Association vote for the All-Star Team at the end of the regular season.
+Simple: The All-Star Team will be voted on at the end of the season.
+```
+// и вообще, будет ли упрощением замена на пассивную конструкцию?)
 
 #### Med-EASi
 [датасет](https://huggingface.co/datasets/cbasu/Med-EASi)
