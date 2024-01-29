@@ -140,14 +140,28 @@ ___
 #### ASSET
 [colab](https://colab.research.google.com/drive/1WKUaXPzx1MZ8dBwKlhAP1p-ed4CYMN_2?usp=sharing)
 ##### Ручной анализ
-41 (тест) -- хороший пример ...
+41 (тест) -- хороший пример того, что при упрощении много информации можно уносить в пресуппозицию
+```
+Complex: It is theoretically possible that the other editors who may have reported you, and the administrator who blocked you, are part of a conspiracy against someone half a world away they've never met in person.
+Simple: It is possible the editors and administrators are part of a conspiracy against you.
+```
 
 ##### Статистика
-
 **Распределение доли разбивок предложений**
 Более чем для 3/4 исходных предложений (всего 2000) как минимум одно упрощение состоит в разбивке предложения на два/несколько:
 (по оси X расположены значения процента разбиений от общего числа упрощений, по оси Y -- количество предложений с таким процентом разбиений)
 
-==посчитать просто долю разбивок от всех упрощений, лол==
+==посчитать просто долю разбивок от всех упрощений==
+
+**Вывод**: разбивка -- распространённый способ упростить.
 
 ![[sent_split_percentages.png]]
+
+**Распределение разниц в длине**
+
+**Вывод**: длина -- не особо показатель простоты.
+
+==здесь важно в целом распределение длин посмотреть, чтобы понять, для каких рамок это справедливо==
+==и разбить на группы, кстати, можно==
+
+![[length_diffs.png]]
